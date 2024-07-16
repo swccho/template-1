@@ -1,0 +1,26 @@
+@import "root";
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  #app{
+    height: 100%;
+    .main-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 100%;
+
+      @import "./includes/sideNav";
+
+      .main-content{
+        flex: 1;
+        margin-left: 10px;
+      }
+    }
+  }
+}
