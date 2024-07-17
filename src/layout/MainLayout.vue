@@ -1,8 +1,7 @@
 <template>
   <div class="main-wrapper">
     <!--  Side nav component  -->
-    <SideNav />
-
+    <HeaderComponent/>
     <!--  Main Content  -->
     <div class="main-content">
       <router-view></router-view>
@@ -11,9 +10,8 @@
 </template>
 <script>
 
-import SideNav from "@/layout/includes/SideNav.vue";
-
+import HeaderComponent from "@/layout/includes/HeaderComponent.vue";
 export default {
-  components: {SideNav}
+  components: {HeaderComponent}
 }
 </script>

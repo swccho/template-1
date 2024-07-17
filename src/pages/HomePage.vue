@@ -1,4 +1,7 @@
 <template>
-  Home
+<div>
+  <!-- Banner -->
+  <div class="banner "></div>
+</div>
 </template>
 
